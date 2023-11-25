@@ -11,6 +11,9 @@ import imgM3 from "./img/BMW 3 M3.jpg"
 import img5S from "./img/BMW 5 Series.jpg"
 import imgM8 from "./img/BMW M8.jpg"
 import Navbar2 from "./Navbar2";
+import Card2 from "./Card2";
+
+let Card2Link = [imgX3, imgX5, imgX6, imgM3, img5S, imgM8]
 
 let Nav2Links = ["Home2", "About2", "Contact2", "Product2"]
 
@@ -21,6 +24,7 @@ root.render(
     <StrictMode>
         <Nav bgclr="black" clr="white" link1="Home" link2="Product" link3="About" link4="Contact" />
         <Card TClr="white" CBgClr="black" img1={imgX3} n1="BMW X3" img2={imgX5} n2="BMW X5" img3={imgX6} n3="BMW X6" img4={imgM3} n4="BMW 3 M3" img5={img5S} n5="BMW 5 Series" img6={imgM8} n6="BMW M8" />
+        <Card2 Card2Links={Card2Link} />
         <Navbar2 Links2={Nav2Links} />
         <Footer />
     </StrictMode>
