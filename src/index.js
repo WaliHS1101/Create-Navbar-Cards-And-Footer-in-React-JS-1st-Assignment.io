@@ -13,7 +13,14 @@ import imgM8 from "./img/BMW M8.jpg"
 import Navbar2 from "./Navbar2";
 import Card2 from "./Card2";
 
-let Card2Link = [imgX3, imgX5, imgX6, imgM3, img5S, imgM8]
+let Card2Link = [
+    { img: imgX3, name: "imgX3" },
+    { img: imgX5, name: "imgX5" },
+    { img: imgX6, name: "imgX6" },
+    { img: imgM3, name: "imgM3" },
+    { img: img5S, name: "img5S" },
+    { img: imgM8, name: "imgM8" }
+]
 
 let Nav2Links = ["Home2", "About2", "Contact2", "Product2"]
 
